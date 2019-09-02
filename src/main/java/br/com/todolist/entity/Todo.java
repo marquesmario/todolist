@@ -27,7 +27,7 @@ import lombok.ToString;
 public class Todo {
 	
 	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@GeneratedValue(strategy = GenerationType.AUTO)
 	private int id;
 	@Column(name = "title")
 	private String title;
